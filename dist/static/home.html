@@ -315,6 +315,12 @@
 							</div>
 						</div>
 						<div class="input-group mb-1">
+							<div class="input-group-prepend">
+								<select class="form-select optionlink p-1" style="width:80px;">
+									<option value="branchlink">app.link</option>
+									<option value="cloudlink">dmstory.link</option>
+								</select>
+							</div>
 							<input type="url" class="form-control websiteLink" placeholder="Bio Website">
 							<div class="input-group-prepend shortBranch">
 								<button type="button" class="btn btn-md inbtn editwebsitelink">Generate</button>
@@ -448,6 +454,12 @@
 							<input type="file" class="form-control-file storyids mb-2">
 							<p class="uploadstorybase64" style="display: none;"></p>
 							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<select class="form-select optionlink p-1" style="width:80px;">
+										<option value="branchlink">app.link</option>
+										<option value="cloudlink">dmstory.link</option>
+									</select>
+								</div>
 								<input type="text" class="form-control link_story" placeholder="Link url">
 								<div class="input-group-append">
 									<button class="btn btn-md createlinkstory inbtn" type="button">generate</button>
@@ -611,6 +623,7 @@
 								<select class="form-select ThreadsTools p-1 text-uppercase" style="width:130px;">
 									<option selected>Threads Tools</option>
 									<option value="sessionidThreads">Get Session</option>
+									<option value="cloneprofile">Clone Profile</option>
 									<option value="followThreads">Follow</option>
 									<option value="unfollowThreads">UnFollow</option>
 									<option value="likeuidThreads">Like</option>
@@ -627,6 +640,7 @@
 									<option value="uidfollowingThread">Following</option>
 									<option value="media_id_threads">Media id</option>
 									<option value="graphqlThread">GraphQL</option>
+									<option value="recommend">recommend uid</option>
 									<option value="suggested">suggested uid</option>
 									<option value="usernametouidThread">Convert To</option>
 								</select>
@@ -848,6 +862,12 @@
 								</div>
 							</div>
 							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<select class="form-select optionlink p-1" style="width:80px;">
+										<option value="branchlink">app.link</option>
+										<option value="cloudlink">dmstory.link</option>
+									</select>
+								</div>
 								<input type="url" class="form-control websiteLinkthreads" placeholder="Bio Website" readonly>
 								<div class="input-group-prepend">
 									<button type="button" class="btn btn-md inbtn buildbranchlinkwebsite">Generate</button>
